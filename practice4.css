@@ -1,0 +1,294 @@
+.main-areas1 {
+    background-image: url(bg\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+
+}
+
+.toggler {
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+.button-boxs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.section3 {
+    background-image: url(bg3.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+
+}
+
+
+
+.section5 {
+    background-image: url(bgimg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+}
+
+#text-area1s5 {
+    padding-top: 90px;
+}
+
+.text-boxs5 {
+    width: 50%;
+}
+
+.main-areas6 {
+    width: 92%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+.section7 {
+    background-image: url(lastbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+
+}
+
+.main-areas7 {
+    width: 92%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+#text-area1s7 {
+    padding-top: 50px;
+
+}
+
+#inputbox {
+    padding-top: 20px;
+}
+
+.input {
+    width: 360px;
+    height: 80px;
+    padding-left: 20px;
+    border: 1px solid #F2F6FA;
+    border-radius: 8px;
+    background-color: #F2F6FA;
+}
+
+.button1s7 {
+    border: 2px solid transparent;
+    background-color: #FED84C;
+    width: 360px;
+    height: 80px;
+    border-radius: 5px;
+
+
+}
+
+.section8 {
+    background-color: #081130;
+    padding-bottom: 30px;
+}
+
+.main-areas8 {
+    width: 92%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.text-areas8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.f-last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s8p4 {
+    display: block;
+}
+
+
+
+
+@media screen and (max-width:992px) {
+
+    .toggler {
+        background-color: transparent;
+        border: none;
+        display: block;
+    }
+
+    .text-areas4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .unorder {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+
+    }
+
+    .text-boxs5 {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+
+    .text-area2s5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+
+    }
+
+    #text-area1s5 {
+        padding-top: 20px;
+    }
+
+    /* .box-text1s7{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+    } */
+
+    .input-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #text-area1s7 {
+
+
+        padding-top: 10px;
+
+    }
+
+    #inputbox {
+        padding-top: 0px;
+    }
+
+}
+
+@media screen and (max-width:653px) {
+    .s8p4 {
+        display: none;
+    }
+
+    .text-areas8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .buttonboxs2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button-boxs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .main-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-areas2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+    }
+
+    .main-areas6 {
+        width: 92%;
+        margin: auto;
+
+
+        align-items: center;
+        text-align: center;
+
+    }
+
+    #box2s6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .input {
+        width: 300px;
+        height: 80px;
+        padding-left: 20px;
+        border: 1px solid #F2F6FA;
+        border-radius: 8px;
+        background-color: #F2F6FA;
+    }
+
+    .button1s7 {
+        border: 2px solid transparent;
+        background-color: #FED84C;
+        width: 300px;
+        height: 80px;
+        border-radius: 5px;
+
+
+    }
+
+
+}
